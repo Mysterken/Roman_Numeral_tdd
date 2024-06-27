@@ -5,7 +5,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class RomanNumeralConverterTest {
 
-    // todo : get converter class
+    private final RomanNumeralConverter converter = new RomanNumeralConverter();
 
     @Test
     public void testOne() {
